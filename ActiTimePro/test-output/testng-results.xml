@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="6" passed="1" failed="1" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-13T23:12:52 IST" name="ActiTaskEditingSuit" finished-at="2022-02-13T23:14:56 IST" duration-ms="123621">
+    <groups>
+    </groups>
+    <test started-at="2022-02-13T23:12:52 IST" name="ChromeTest" finished-at="2022-02-13T23:13:15 IST" duration-ms="22195">
+      <class name="actitimeTest.AllinOneActiTimeTestNG">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:actitimeTest.AllinOneActiTimeTestNG@28f3b248]" started-at="2022-02-13T23:12:52 IST" name="launchBrowser" finished-at="2022-02-13T23:13:14 IST" duration-ms="21948" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DTBN5AF', ip: '192.168.43.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: driver.version: ChromeDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DTBN5AF', ip: '192.168.43.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: driver.version: ChromeDriver
+at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:202)
+at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:188)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at base.Browser.launchChromeBrowser(Browser.java:14)
+at actitimeTest.AllinOneActiTimeTestNG.launchBrowser(AllinOneActiTimeTestNG.java:62)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:34210/status] to be available after 20002 ms
+at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
+at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:197)
+... 29 more
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)
+at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="objectOfPOMClasses()[pri:0, instance:actitimeTest.AllinOneActiTimeTestNG@28f3b248]" started-at="2022-02-13T23:13:15 IST" name="objectOfPOMClasses" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1644774195082" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objectOfPOMClasses -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:actitimeTest.AllinOneActiTimeTestNG@28f3b248]" started-at="2022-02-13T23:13:15 IST" name="loginToApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1644774195103" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="createNewTask()[pri:0, instance:actitimeTest.AllinOneActiTimeTestNG@28f3b248]" started-at="2022-02-13T23:13:15 IST" name="createNewTask" finished-at="2022-02-13T23:13:15 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DTBN5AF', ip: '192.168.43.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: driver.version: ChromeDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DTBN5AF', ip: '192.168.43.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: driver.version: ChromeDriver
+at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:202)
+at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:188)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at base.Browser.launchChromeBrowser(Browser.java:14)
+at actitimeTest.AllinOneActiTimeTestNG.launchBrowser(AllinOneActiTimeTestNG.java:62)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:34210/status] to be available after 20002 ms
+at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
+at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:197)
+... 29 more
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)
+at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewTask -->
+        <test-method is-config="true" signature="logoutFromApplication(org.testng.ITestResult)[pri:0, instance:actitimeTest.AllinOneActiTimeTestNG@28f3b248]" started-at="2022-02-13T23:13:15 IST" name="logoutFromApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1644774195118" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:actitimeTest.AllinOneActiTimeTestNG@28f3b248]" started-at="2022-02-13T23:13:15 IST" name="loginToApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1644774195140" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="enterTimeTrackPage()[pri:1, instance:actitimeTest.AllinOneActiTimeTestNG@28f3b248]" started-at="2022-02-13T23:13:15 IST" name="enterTimeTrackPage" finished-at="2022-02-13T23:13:15 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DTBN5AF', ip: '192.168.43.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: driver.version: ChromeDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DTBN5AF', ip: '192.168.43.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: driver.version: ChromeDriver
+at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:202)
+at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:188)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at base.Browser.launchChromeBrowser(Browser.java:14)
+at actitimeTest.AllinOneActiTimeTestNG.launchBrowser(AllinOneActiTimeTestNG.java:62)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:34210/status] to be available after 20002 ms
+at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
+at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:197)
+... 29 more
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)
+at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterTimeTrackPage -->
+        <test-method is-config="true" signature="logoutFromApplication(org.testng.ITestResult)[pri:0, instance:actitimeTest.AllinOneActiTimeTestNG@28f3b248]" started-at="2022-02-13T23:13:15 IST" name="logoutFromApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1644774195159" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="closeObjectsOfPOMClassses()[pri:0, instance:actitimeTest.AllinOneActiTimeTestNG@28f3b248]" started-at="2022-02-13T23:13:15 IST" name="closeObjectsOfPOMClassses" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1644774195168" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeObjectsOfPOMClassses -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:actitimeTest.AllinOneActiTimeTestNG@28f3b248]" started-at="2022-02-13T23:13:15 IST" name="quitBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1644774195170" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- actitimeTest.AllinOneActiTimeTestNG -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2022-02-13T23:12:52 IST" name="EdgeTest" finished-at="2022-02-13T23:14:56 IST" duration-ms="123621">
+      <class name="actitimeTest.AllinOneActiTimeTestNG">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:actitimeTest.AllinOneActiTimeTestNG@bae7dc0]" started-at="2022-02-13T23:12:53 IST" name="launchBrowser" finished-at="2022-02-13T23:13:54 IST" duration-ms="61391" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="objectOfPOMClasses()[pri:0, instance:actitimeTest.AllinOneActiTimeTestNG@bae7dc0]" started-at="2022-02-13T23:13:54 IST" name="objectOfPOMClasses" finished-at="2022-02-13T23:13:55 IST" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objectOfPOMClasses -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:actitimeTest.AllinOneActiTimeTestNG@bae7dc0]" started-at="2022-02-13T23:13:55 IST" name="loginToApplication" finished-at="2022-02-13T23:14:27 IST" duration-ms="31934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="createNewTask()[pri:0, instance:actitimeTest.AllinOneActiTimeTestNG@bae7dc0]" started-at="2022-02-13T23:14:27 IST" name="createNewTask" finished-at="2022-02-13T23:14:27 IST" duration-ms="236" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [http://localhost/user/submit_tt.do] but found [http://localhost/login.do],
+expected [actiTIME - Enter Time-Track] but found [actiTIME - Login]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [http://localhost/user/submit_tt.do] but found [http://localhost/login.do],
+expected [actiTIME - Enter Time-Track] but found [actiTIME - Login]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at actitimeTest.AllinOneActiTimeTestNG.createNewTask(AllinOneActiTimeTestNG.java:152)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewTask -->
+        <test-method is-config="true" signature="logoutFromApplication(org.testng.ITestResult)[pri:0, instance:actitimeTest.AllinOneActiTimeTestNG@bae7dc0]" started-at="2022-02-13T23:14:27 IST" name="logoutFromApplication" finished-at="2022-02-13T23:14:45 IST" duration-ms="18170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createNewTask status=FAILURE method=AllinOneActiTimeTestNG.createNewTask()[pri:0, instance:actitimeTest.AllinOneActiTimeTestNG@bae7dc0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:actitimeTest.AllinOneActiTimeTestNG@bae7dc0]" started-at="2022-02-13T23:14:45 IST" name="loginToApplication" finished-at="2022-02-13T23:14:46 IST" duration-ms="725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="enterTimeTrackPage()[pri:1, instance:actitimeTest.AllinOneActiTimeTestNG@bae7dc0]" started-at="2022-02-13T23:14:46 IST" name="enterTimeTrackPage" finished-at="2022-02-13T23:14:53 IST" duration-ms="7631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterTimeTrackPage -->
+        <test-method is-config="true" signature="logoutFromApplication(org.testng.ITestResult)[pri:0, instance:actitimeTest.AllinOneActiTimeTestNG@bae7dc0]" started-at="2022-02-13T23:14:53 IST" name="logoutFromApplication" finished-at="2022-02-13T23:14:54 IST" duration-ms="766" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterTimeTrackPage status=SUCCESS method=AllinOneActiTimeTestNG.enterTimeTrackPage()[pri:1, instance:actitimeTest.AllinOneActiTimeTestNG@bae7dc0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="closeObjectsOfPOMClassses()[pri:0, instance:actitimeTest.AllinOneActiTimeTestNG@bae7dc0]" started-at="2022-02-13T23:14:54 IST" name="closeObjectsOfPOMClassses" finished-at="2022-02-13T23:14:54 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeObjectsOfPOMClassses -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:actitimeTest.AllinOneActiTimeTestNG@bae7dc0]" started-at="2022-02-13T23:14:54 IST" name="quitBrowser" finished-at="2022-02-13T23:14:56 IST" duration-ms="1974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- actitimeTest.AllinOneActiTimeTestNG -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- ActiTaskEditingSuit -->
+</testng-results>
